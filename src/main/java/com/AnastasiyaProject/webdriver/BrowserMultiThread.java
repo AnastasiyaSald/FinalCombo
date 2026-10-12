@@ -1,4 +1,4 @@
-package webdriver;
+package com.AnastasiyaProject.webdriver;
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;

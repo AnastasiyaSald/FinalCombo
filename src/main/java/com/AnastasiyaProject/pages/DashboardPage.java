@@ -1,12 +1,9 @@
 package com.AnastasiyaProject.pages;
 
+import com.AnastasiyaProject.pages.elements.LeftMenuItemElements;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.*;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
-
-import java.time.Duration;
 
 public class DashboardPage extends BasePage {
     private static final Logger logger = LogManager.getLogger(DashboardPage.class);
@@ -24,30 +21,6 @@ public class DashboardPage extends BasePage {
         return this.leftMenu;
     }
 
-    public String dashboardPageIsOpened() {
-        return leftMenu.clickDashboardAndGetUrl();
-    }
-
-    public boolean usersLeftMenuItemIsDisplayed() {
-        return leftMenu.usersLeftMenuItemIsDisplayed();
-    }
-
-    public boolean mediaLeftMenuItemisDisplayed() {
-        return leftMenu.mediaLeftMenuItemisDisplayed();
-    }
-
-    public boolean postsLeftMenuItemIsDisplayed() {
-        return leftMenu.postsLeftMenuItemIsDisplayed();
-    }
-
-    public boolean pagesLeftMenuItemIsDisplayed() {
-        return leftMenu.pagesItemLeftMenuIsDisplayed();
-    }
-
-    public void clickOnPagesItem() {
-        leftMenu.clickOnPagesItem();
-    }
-
     public boolean refreshItemIsDisplayed() {
         try {
             return findVisibleElement(refreshItemLocator).isDisplayed();
@@ -56,8 +29,8 @@ public class DashboardPage extends BasePage {
         }
     }
 
-    public void clickOnMediaItem() {
-        leftMenu.clickOnMediaItem();
-    }
+//    public void clickOnMediaItem() {
+//        leftMenu.clickOnMediaItem();
+//    }
 
 }

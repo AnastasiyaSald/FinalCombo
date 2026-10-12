@@ -1,6 +1,6 @@
 package com.AnastasiyaProject.tests;
 
-import webdriver.BrowserMultiThread;
+import com.AnastasiyaProject.webdriver.BrowserMultiThread;
 
 public class BasicStartCloseBrowserTest {
 

@@ -4,8 +4,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import webdriver.BrowserMultiThread;
-import webdriver.ConfigReader;
+import com.AnastasiyaProject.webdriver.BrowserMultiThread;
+import com.AnastasiyaProject.webdriver.ConfigReader;
 
 public abstract class BasePage {
 

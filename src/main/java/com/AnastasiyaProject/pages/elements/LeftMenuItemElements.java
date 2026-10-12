@@ -1,5 +1,6 @@
-package com.AnastasiyaProject.pages;
+package com.AnastasiyaProject.pages.elements;
 
+import com.AnastasiyaProject.pages.BasePage;
 import org.openqa.selenium.By;
 import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.NoSuchElementException;

@@ -5,8 +5,8 @@ import com.AnastasiyaProject.pages.LoginPage;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
-import webdriver.BrowserMultiThread;
-import webdriver.ConfigReader;
+import com.AnastasiyaProject.webdriver.BrowserMultiThread;
+import com.AnastasiyaProject.webdriver.ConfigReader;
 
 public class BaseTest {
 

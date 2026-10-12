@@ -1,4 +1,4 @@
-package webdriver;
+package com.AnastasiyaProject.webdriver;
 
 import java.io.FileInputStream;
 import java.io.IOException;

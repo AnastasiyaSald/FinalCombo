@@ -1,5 +1,6 @@
-package com.AnastasiyaProject.pages;
+package com.AnastasiyaProject.pages.elements;
 
+import com.AnastasiyaProject.pages.BasePage;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
