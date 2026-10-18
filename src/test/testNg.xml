@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Полный цикл тестов WordPress" preserve-order="true" thread-count="1">
+    <listeners>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+    </listeners>
+    <test name="Регрессионное тестирование функционала" preserve-order="true">
+        <classes>
+            <class name="com.AnastasiyaProject.tests.LoginForDifferentRolesTest"/>
+            <class name="com.AnastasiyaProject.tests.PageCanBeCreatedTest"/>
+            <class name="com.AnastasiyaProject.tests.PageTest"/>
+            <class name="com.AnastasiyaProject.tests.PageCanBeDeletedTest" />
+            <class name="com.AnastasiyaProject.tests.MediaUploadTest" />
+        </classes>
+    </test>
+</suite>
