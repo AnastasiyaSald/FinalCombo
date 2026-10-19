@@ -16,12 +16,12 @@ public class LoginForDifferentRolesTest extends BasicStartCloseBrowserTest {
 
     protected final String baseUrl = "https://dev-wordpress-fcdbgyfxfuetftf5.westus2-01.azurewebsites.net/wp-admin";
 
-    @BeforeMethod // Запустится пред КАЖДЫМ тестом роли
+    @BeforeMethod
     public void setupMethod() {
         startBrowser();
     }
 
-    @AfterMethod(alwaysRun = true) // Перезапустит браузер после КАЖДОЙ роли
+    @AfterMethod(alwaysRun = true)
     public void tearDownMethod() {
         stopBrowser();
     }
